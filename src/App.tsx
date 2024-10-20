@@ -1,20 +1,10 @@
-import DropdownItems from './DropdownItems';
-import { dropdownData } from './data/data';
-import styles from './style.module.css';
-
+import Sidebar from './Sidebar';
 const App = () => {
   return (
-    <div className={styles.main}>
-      <div className={styles.nestedDropdown}>
-        <ul className={styles.dropdownMain}>
-          
-          {dropdownData.map((menu, index) => (
-            <DropdownItems items={menu} key={index} depthLevel={0} />
-          ))}
-        </ul>
-      </div>
+    <div>
+      <Sidebar />
     </div>
-  );
+  )
 };
 
 export default App;
