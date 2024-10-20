@@ -1,0 +1,14 @@
+In this question, we need to a build an interactive bar chart similar to velocity charts we see in Atlassian's JIRA product.
+
+Functional Requirements
+There should be a button that can be used to toggle the visibility of the chart.
+Department data would be provided using which we need to draw a Bar chart where Y axis represents the no. of tickets and X axis represents the departments.
+Each bar should be scaled based on the highest no. of tickets.
+Each bar should have a tooltip that displays department name along with no. of tickets when a bar is hovered.
+Bar's height should animate from 0 to final value upon entry and exit.
+Mockups
+Chart Screenshot
+
+Chart with Tooltip
+
+https://ik.imagekit.io/devtoolstech/question-images/interative-chart-jira/Screenshot%202024-06-08%20at%205.51.57%20PM_lBdPLwEksP.png?updatedAt=1717849620325
